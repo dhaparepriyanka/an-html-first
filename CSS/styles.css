@@ -1,0 +1,156 @@
+/*-----------------MAIN TAGS------------------*/
+body{
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+p{
+  font-size: 65px;
+  font-family: 'Montserrat', sans-serif;
+  width: 60%;
+  text-align: left;
+}
+
+h2{
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  color: #f6416c;
+}
+h3{
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  color: #f6416c;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+
+
+/*-----------------Class TAGS------------------*/
+.top{
+  background-color: #f8f3d4;
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  padding-top: 5%;
+  }
+
+.dotted{
+  margin-top: 2%;
+  border: dotted;
+  border-bottom: none;
+  width: 3%;
+  border-width: thick;
+  border-color: #f6416c;
+  margin-bottom: 5%;
+
+}
+
+.myButton {
+	background-color:#f8f3d4;
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:#f6416b;
+	font-family: 'Montserrat', sans-serif;
+	font-size:80px;
+	padding:16px 40px;
+	text-decoration:none;
+  margin-bottom: 2%;
+
+}
+
+.myButton:hover {
+	background-color:#ffdf7d;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+  padding-top: 30px;
+  width: 100%;
+  background-color: #ffde7d;
+  position: static;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.footer-link{
+  width: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/*-----------------ID TAGS------------------*/
+#mountain{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 45%;
+  height: auto;
+}
+
+#cloud1{
+  width: 11%;
+  height: auto;
+  position: absolute;
+  right: 20%;
+  top: 5%;
+}
+
+#cloud2{
+  width: 8%;
+  height: auto;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+
+}
+
+#name{
+  font-family: 'Allura', cursive;
+  font-size: 200px;
+  margin-bottom: 0;
+  color: #f6416c;
+}
+
+#my-pic{
+  width: 10%;
+  border-radius: 50%;
+  margin-top: 4%;
+}
+
+#my-intro{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+#draw{
+  width: 15%;
+  margin-left: 8%;
+  border-radius: 50%;
+  float: left;
+}
+
+#code{
+
+    width: 8%;
+    margin-right: 15%;
+    border-radius: 50%;
+    float: right;
+}
+
+#copyright{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  margin: auto;
+}
